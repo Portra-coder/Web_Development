@@ -1,0 +1,44 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+nav {
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 10%;
+  background: linear-gradient(to right, purple, white, purple);
+  color: white;
+}
+nav > h1 {
+  letter-spacing: 1.6px;
+  text-shadow: 2px 4px 4px black;
+}
+nav > button {
+  padding: 10px 25px;
+  border-radius: 15px;
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  background-color: violet;
+  color: white;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+.dark {
+  min-height: 100vh;
+  background-color: black;
+  color: white;
+  padding: 20px 30px;
+  transition-duration: 1s;
+}
+.light {
+  min-height: 100vh;
+  background-color: white;
+  color: black;
+  padding: 20px 30px;
+  transition-duration: 1s;
+}

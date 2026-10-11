@@ -1,0 +1,18 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+div{
+    background-color: greenyellow;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+h2{
+    background-color: black;
+    color: white;
+    width: 25%;
+    padding: 5px;
+    /* margin: 5px; */
+}
